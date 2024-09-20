@@ -10,7 +10,6 @@
 		2F37D3E42C9C5F170091D443 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F37D3E32C9C5F170091D443 /* AppDelegate.swift */; };
 		2F37D3E62C9C5F170091D443 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F37D3E52C9C5F170091D443 /* SceneDelegate.swift */; };
 		2F37D3E82C9C5F170091D443 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F37D3E72C9C5F170091D443 /* ViewController.swift */; };
-		2F37D3EB2C9C5F170091D443 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F37D3E92C9C5F170091D443 /* Main.storyboard */; };
 		2F37D3ED2C9C5F190091D443 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F37D3EC2C9C5F190091D443 /* Assets.xcassets */; };
 		2F37D3F02C9C5F190091D443 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F37D3EE2C9C5F190091D443 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,7 +19,6 @@
 		2F37D3E32C9C5F170091D443 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F37D3E52C9C5F170091D443 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		2F37D3E72C9C5F170091D443 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2F37D3EA2C9C5F170091D443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F37D3EC2C9C5F190091D443 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F37D3EF2C9C5F190091D443 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2F37D3F12C9C5F190091D443 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,7 +57,6 @@
 				2F37D3E32C9C5F170091D443 /* AppDelegate.swift */,
 				2F37D3E52C9C5F170091D443 /* SceneDelegate.swift */,
 				2F37D3E72C9C5F170091D443 /* ViewController.swift */,
-				2F37D3E92C9C5F170091D443 /* Main.storyboard */,
 				2F37D3EC2C9C5F190091D443 /* Assets.xcassets */,
 				2F37D3EE2C9C5F190091D443 /* LaunchScreen.storyboard */,
 				2F37D3F12C9C5F190091D443 /* Info.plist */,
@@ -127,7 +124,6 @@
 			files = (
 				2F37D3F02C9C5F190091D443 /* LaunchScreen.storyboard in Resources */,
 				2F37D3ED2C9C5F190091D443 /* Assets.xcassets in Resources */,
-				2F37D3EB2C9C5F170091D443 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +143,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2F37D3E92C9C5F170091D443 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2F37D3EA2C9C5F170091D443 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2F37D3EE2C9C5F190091D443 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -295,11 +283,13 @@
 				DEVELOPMENT_TEAM = ZJ24JA23A8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "training-ai/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TrainingAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,11 +313,13 @@
 				DEVELOPMENT_TEAM = ZJ24JA23A8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "training-ai/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = TrainingAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
